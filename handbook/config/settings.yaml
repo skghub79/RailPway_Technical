@@ -1,0 +1,19 @@
+project:
+  name: RailPway_Technical
+  version: 0.1.0
+
+paths:
+  handbook: handbook
+  templates: templates
+  output: output
+  image_library: image_library
+
+output:
+  docx: true
+  pdf: true
+  html: false
+  epub: false
+
+logging:
+  level: INFO
+  log_folder: logs
