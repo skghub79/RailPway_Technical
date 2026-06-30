@@ -1,6 +1,29 @@
+# Virtual Environment
+.venv/
+
+# Python
 __pycache__/
-*.pyc
-venv/
-.env
-output/
-Python
+*.py[cod]
+*.pyo
+
+# Test reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checker
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
